@@ -340,6 +340,7 @@ legend {
 
 #services .owl-item img {
     height: 400px;
+    object-fit: cover;
 }
 
 progress {
@@ -10219,10 +10220,7 @@ h6,
 }
 
 .jumbotron {
-    background: linear-gradient(
-            rgba(40, 120, 235, 0.9),
-            rgba(40, 120, 235, 0.9)
-        ),
+    background: linear-gradient(rgb(56 67 83 / 90%), rgb(78 100 133 / 90%)),
         url(../img/header.jpg), no-repeat center center;
     background-size: cover;
 }
